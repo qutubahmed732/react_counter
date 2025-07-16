@@ -12,14 +12,12 @@ function App() {
       counter = counter + 1;
     }
     setCounter(counter)
-    setCounter((c)=> c + 1)
   }
   const removeValue = ()=>{
     if(counter > 0) {
       counter = counter - 1;
     }
     setCounter(counter)
-    setCounter((c)=> c - 1)
   }
 
   return (
