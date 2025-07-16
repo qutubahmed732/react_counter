@@ -23,6 +23,7 @@ function App() {
   return (
     <>
       <h1>Chai or react</h1>
+      <h1>Ye 10 se upar nahi jayega or 0 se neeche nahi</h1>
       <h2>Counter Value: {counter}</h2>
 
       <button style={{marginBlockEnd: '20px'}} onClick={addValue}>add value</button>
